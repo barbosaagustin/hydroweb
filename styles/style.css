@@ -10,14 +10,18 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
-header nav ul {
-    list-style-type: none;
+.navImage img {
+    width: 70px;
+    height: 70px;
 }
-
-header nav ul li {
-    display: inline-block;
+ .navLinks {
+    
+ }
+#navbarNav {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: right;
 }
-
 .imgLogo {
     width: 70px;
     height: 70px;
