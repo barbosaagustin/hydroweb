@@ -14,14 +14,18 @@ html {
     width: 70px;
     height: 70px;
 }
- .navLinks {
-    
- }
-#navbarNav {
-    display: flex !important;
-    flex-basis: auto;
+
+.navLinks {
+    display: flex;
     justify-content: right;
+    align-items: center;
 }
+
+.navContainer {
+    display: flex;
+    width: 100%;
+}
+
 .imgLogo {
     width: 70px;
     height: 70px;
