@@ -26,6 +26,7 @@ html {
         flex-wrap: wrap;
         margin: 20px 100px
     }
+
 }
 
 .navImage img {
@@ -87,6 +88,7 @@ footer {
     justify-content: space-between;
     text-align: justify;
     box-shadow: 0px 1px 5px lightblue;
+    z-index: 1000;
 }
 
 .portadaHYDRO {
@@ -145,4 +147,72 @@ footer {
 .featuresContainer .card {
     margin: 20px;
     width: 20rem;
+}
+
+
+
+.serviceTab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #107E7D; 
+    border-radius: 15px; 
+    flex-wrap: wrap;
+}
+
+.serviceTab img {
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.serviceTab p {
+    text-align: center;
+    font-size: 1em;
+    line-height: 2em; /* line-height: 1.5 establece el interlineado a un 150% del tamaño de la fuente */
+}
+
+.pill {
+    background-color: #107E7D;
+}
+
+.nav-pills .nav-link {
+    background-color: white ;/* Color de fondo predeterminado */
+    color: black; /* Color del texto predeterminado */
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #107E7D; /* Color de fondo al pasar el mouse */
+}
+
+.nav-pills .nav-link.active {
+    background-color: #107E7D; /* Color de fondo cuando está activo */
+    color: white; /* Color del texto cuando está activo */
+}
+
+.botonContacto {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo personalizado para el botón */
+.contact-button {
+    color: white; /* Cambia este valor al color de texto deseado */
+    border: 2px solid #107E7D;
+}
+
+.contact-button:hover {
+    background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+}
+
+.contact-button:after {
+    background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+}
+
+/* Estilo personalizado para el enlace dentro del botón */
+.contact-link {
+    color: black; /* Cambia este valor al color de texto deseado */
+    text-decoration: none; /* Opcional: Eliminar subrayado */
 }
