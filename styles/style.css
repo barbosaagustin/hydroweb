@@ -19,7 +19,7 @@ html {
         flex-wrap: wrap;
     }    
 
-    .contenidoHome {
+    .contenidoHomeContainer {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -59,7 +59,9 @@ html {
     justify-content: center;
     align-items: center;
 }
+
 .footerLink {
+    display: flex;
     padding: 2px 20px;
 }
 
@@ -69,20 +71,22 @@ html {
 }
 
 header {
-    box-shadow: 1px 1px 5px lightblue;
+    box-shadow: 0px 1px 5px lightblue;
     display: flex;
     justify-content: space-between;
     text-align: justify;
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 1000;
 }
 
 footer {
-    padding-top: 30px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     text-align: justify;
+    box-shadow: 0px 1px 5px lightblue;
 }
 
 .portadaHYDRO {
@@ -95,7 +99,7 @@ footer {
 }
 
 .introduccionHydro {
-    margin: 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
 }
@@ -106,26 +110,39 @@ footer {
     line-height: 2em; /* line-height: 1.5 establece el interlineado a un 150% del tamaño de la fuente */
 }
 
-.contenidoHome {
+.contenidoHomeContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 30px 100px
+    margin: 30px 100px;
 }
 
-.contenidoHome .video {
+.contenidoHomeContainer .video {
     width: 45%;
     display: flex;
     justify-content: center;
 }
 
-.contenidoHome .texto {
+.contenidoHomeContainer .texto {
     text-align: center;
     font-size: 1em;
     line-height: 2em; 
 }
 
-.contenidoHome .imagenEquipoHome {
+.contenidoHomeContainer .imagenEquipoHome {
     padding-left: 20px;
+}
+
+.featuresContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+}
+
+.featuresContainer .card {
+    margin: 20px;
+    width: 20rem;
 }
