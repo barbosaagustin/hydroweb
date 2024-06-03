@@ -11,8 +11,10 @@ html {
 }
 
 .navImage img {
+    display: flex;
     width: 70px;
     height: 70px;
+    justify-content: center;
 }
 
 .navLinks {
@@ -29,19 +31,30 @@ html {
 .footerContainer {
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 868px) {
+
+    .footerContainer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
 }
 
 .footerLinks {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-
 .footerLink {
-    display: inline-block;
+    padding: 2px 20px;
 }
-
-.footerLinks ul
 
 .imgLogo {
     width: 70px;
