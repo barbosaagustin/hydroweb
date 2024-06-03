@@ -63,7 +63,6 @@ html {
 
 header {
     box-shadow: 1px 1px 5px lightblue;
-    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     text-align: justify;
@@ -77,4 +76,25 @@ footer {
     display: flex;
     justify-content: space-between;
     text-align: justify;
+}
+
+.portadaHYDRO {
+    display: flex;
+    width: 100%;
+}
+
+.portadaHYDRO img {
+    width: 100%;
+}
+
+.introduccionHydro {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.introduccionHydro p {
+    text-align: center;
+    font-size: 1em;
+    line-height: 2em; /* line-height: 1.5 establece el interlineado a un 150% del tamaño de la fuente */
 }
