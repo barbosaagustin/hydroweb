@@ -149,8 +149,6 @@ footer {
     width: 20rem;
 }
 
-
-
 .serviceTab {
     display: flex;
     justify-content: space-around;
@@ -173,9 +171,6 @@ footer {
     line-height: 2em; /* line-height: 1.5 establece el interlineado a un 150% del tamaño de la fuente */
 }
 
-.pill {
-    background-color: #107E7D;
-}
 
 .nav-pills .nav-link {
     background-color: white ;/* Color de fondo predeterminado */
