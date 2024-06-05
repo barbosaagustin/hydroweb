@@ -202,6 +202,7 @@ footer {
 .contact-button {
     color: white; /* Cambia este valor al color de texto deseado */
     border: 2px solid #107E7D;
+    color: black;
 }
 
 .contact-button:hover {
@@ -255,4 +256,44 @@ footer {
 .conocenosLabel {
     display: flex;
     justify-content: center;
+}
+
+.contactanosLabel {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.redesLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.redesLink {
+    display: flex;
+    padding: 2px 20px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactoLabel {
+    padding: 0 10%;
+}
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 5%;
+}
+
+.formItem {
+    padding: 15px 0px;
 }
