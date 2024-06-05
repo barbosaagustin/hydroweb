@@ -16,25 +16,6 @@ body {
   font-style: normal;
 }
 
-@media only screen and (max-width: 868px) {
-
-    .footerContainer {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-    }    
-
-    .contenidoHomeContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 20px 100px
-    }
-
-}
-
 .navImage img {
     display: flex;
     width: 70px;
@@ -287,6 +268,7 @@ footer {
 .contactoLabel {
     padding: 0 10%;
 }
+
 .form {
     display: grid;
     grid-template-columns: auto auto;
@@ -296,4 +278,53 @@ footer {
 
 .formItem {
     padding: 15px 0px;
+}
+
+.clientes {
+    display: flex;
+    justify-content: center;
+}
+
+.clientes .carousel {
+    width: 70%;
+}
+
+.slidesText {
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 868px) {
+
+    .footerContainer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }    
+
+    .contenidoHomeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px 100px
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .formItem {
+        padding: 15px 30px;
+    }
 }
