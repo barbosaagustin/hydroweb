@@ -160,6 +160,10 @@ footer {
     line-height: 2em; 
 }
 
+.serviceTabsHorizontal {
+    display: none;
+}
+
 
 .nav-pills .nav-link {
     background-color: white ;/* Color de fondo predeterminado */
@@ -322,6 +326,14 @@ footer {
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .serviceTabsHorizontal {
+        display:contents;
+    }
+
+    .serviceTabs {
+        display: none;
     }
 }
 
