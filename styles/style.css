@@ -88,7 +88,7 @@ footer {
 }
 
 .introduccionHydro {
-    padding: 20px;
+    padding: 20px 0px;
     display: flex;
     justify-content: center;
 }
@@ -96,7 +96,7 @@ footer {
 .introduccionHydro p {
     text-align: center;
     font-size: 1em;
-    line-height: 2em; /* line-height: 1.5 establece el interlineado a un 150% del tamaño de la fuente */
+    line-height: 2em; 
 }
 
 .contenidoHomeContainer {
@@ -104,23 +104,25 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 30px 100px;
+    margin: 30px 7%;
 }
 
 .contenidoHomeContainer .video {
     width: 45%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .contenidoHomeContainer .texto {
+    padding: 10px 0;
     text-align: center;
     font-size: 1em;
     line-height: 2em; 
 }
 
 .contenidoHomeContainer .imagenEquipoHome {
-    padding-left: 20px;
+    padding-left: 5%;
 }
 
 .featuresContainer {
@@ -128,11 +130,11 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 30px 100px;
+    margin: 30px 7%;
 }
 
 .featuresContainer .card {
-    margin: 20px;
+    margin: 20px 5%;
     width: 20rem;
 }
 
@@ -155,7 +157,7 @@ footer {
 .serviceTab p {
     text-align: center;
     font-size: 1em;
-    line-height: 2em; /* line-height: 1.5 establece el interlineado a un 150% del tamaño de la fuente */
+    line-height: 2em; 
 }
 
 
@@ -227,6 +229,7 @@ footer {
 .nosotros {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .nosotros .card {
@@ -312,9 +315,14 @@ footer {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin: 20px 100px
+        margin: 20px 7%;
     }
 
+    .contenidoHomeContainer .video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 500px) {
