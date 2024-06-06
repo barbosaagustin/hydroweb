@@ -48,6 +48,11 @@ body {
     align-items: center;
 }
 
+.footerLinks ul {
+    display: flex;
+    justify-content: center;
+}
+
 .footerLink {
     display: flex;
     padding: 2px 20px;
