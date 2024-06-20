@@ -24,18 +24,24 @@
     display: none;
 }
 
-.nav-pills .nav-link {
+.nav-pills{ 
+    .nav-link {
     background-color: white ;/* Color de fondo predeterminado */
     color: black; /* Color del texto predeterminado */
+    }
 }
 
-.nav-pills .nav-link:hover {
+.nav-pills{ 
+    .nav-link:hover {
     background-color: #107E7D; /* Color de fondo al pasar el mouse */
+    }
 }
 
-.nav-pills .nav-link.active {
+.nav-pills{ 
+    .nav-link.active {
     background-color: #107E7D; /* Color de fondo cuando está activo */
     color: white; /* Color del texto cuando está activo */
+    }
 }
 
 .botonContacto {
@@ -49,14 +55,14 @@
     color: white; /* Cambia este valor al color de texto deseado */
     border: 2px solid #107E7D;
     color: black;
-}
-
-.contact-button:hover {
-    background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
-}
-
-.contact-button:after {
-    background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+    
+    :hover {
+        background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+    }
+    
+    :after {
+        background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+    }
 }
 
 /* Estilo personalizado para el enlace dentro del botón */

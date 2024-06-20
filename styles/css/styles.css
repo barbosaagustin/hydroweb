@@ -197,12 +197,10 @@ header {
   border: 2px solid #107E7D;
   color: black;
 }
-
-.contact-button:hover {
+.contact-button :hover {
   background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
 }
-
-.contact-button:after {
+.contact-button :after {
   background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
 }
 
