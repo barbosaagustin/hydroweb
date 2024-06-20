@@ -4,6 +4,17 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 30px 7%;
+    animation: myAnim 0.5s ease 0s 1 normal forwards;
+
+    @keyframes myAnim {
+        0% {
+            transform: scale(0.5);
+        }
+    
+        100% {
+            transform: scale(1);
+        }
+    }
 
     .video {
         width: 45%;
@@ -16,7 +27,7 @@
         padding: 10px 0;
         text-align: center;
         font-size: 1em;
-        line-height: 2em; 
+        line-height: 2em;
     }
 
     .imagenEquipoHome {

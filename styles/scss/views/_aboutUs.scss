@@ -6,6 +6,7 @@
 .nuestraHistoriaItems {
     display: flex;
     padding: 100px;
+
 }
 
 .lineaTemporalContainer {
@@ -15,6 +16,19 @@
     grid-template-rows: auto auto auto;
     justify-content: center;
     column-gap: 5%;
+    animation: atencion 2s ease 0s 1 normal forwards;
+    @keyframes atencion {
+        0%,
+        50%,
+        100% {
+            opacity: 1;
+        }
+    
+        25%,
+        75% {
+            opacity: 0;
+        }
+    }
 }
 
 .verticalLine {
