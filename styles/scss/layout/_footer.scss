@@ -1,0 +1,26 @@
+@import '../components/footerUl.scss';
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    box-shadow: 0px 1px 5px lightblue;
+    z-index: 1000;
+}
+
+.footerContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerLinks {
+    @include footer-list-ul;
+}
+
+.footerLink {
+    display: flex;
+    padding: 2px 20px;
+}

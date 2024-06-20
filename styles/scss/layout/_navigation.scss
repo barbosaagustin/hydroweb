@@ -1,0 +1,19 @@
+.navImage { 
+    img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    }
+}
+
+.navLinks {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navContainer {
+    display: flex;
+    width: 100%;
+}

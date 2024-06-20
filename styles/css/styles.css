@@ -1,0 +1,325 @@
+@charset "UTF-8";
+body {
+  font-family: "Reddit Mono", monospace !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Reseteo, lo primero que debemos poner */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navImage img {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.navContainer {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  box-shadow: 0px 1px 5px lightblue;
+  z-index: 1000;
+}
+
+.footerContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footerLinks ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footerLink {
+  display: flex;
+  padding: 2px 20px;
+}
+
+header {
+  box-shadow: 0px 1px 5px lightblue;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+}
+
+.portadaHYDRO {
+  display: flex;
+  width: 100%;
+}
+.portadaHYDRO img {
+  width: 100%;
+}
+
+.introduccionHydro {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.introduccionHydro p {
+  text-align: center;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.contenidoHomeContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 7%;
+}
+.contenidoHomeContainer .video {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.contenidoHomeContainer .texto {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1em;
+  line-height: 2em;
+}
+.contenidoHomeContainer .imagenEquipoHome {
+  padding-left: 5%;
+}
+
+.featuresContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 7%;
+}
+.featuresContainer .card {
+  margin: 20px 5%;
+  width: 20rem;
+}
+
+.serviceTab {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #107E7D;
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+.serviceTab img {
+  width: 500px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.serviceTab p {
+  text-align: center;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.serviceTabsHorizontal {
+  display: none;
+}
+
+.nav-pills .nav-link {
+  background-color: white; /* Color de fondo predeterminado */
+  color: black; /* Color del texto predeterminado */
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #107E7D; /* Color de fondo al pasar el mouse */
+}
+
+.nav-pills .nav-link.active {
+  background-color: #107E7D; /* Color de fondo cuando está activo */
+  color: white; /* Color del texto cuando está activo */
+}
+
+.botonContacto {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo personalizado para el botón */
+.contact-button {
+  color: white; /* Cambia este valor al color de texto deseado */
+  border: 2px solid #107E7D;
+  color: black;
+}
+
+.contact-button:hover {
+  background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+}
+
+.contact-button:after {
+  background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+}
+
+/* Estilo personalizado para el enlace dentro del botón */
+.contact-link {
+  color: black; /* Cambia este valor al color de texto deseado */
+  text-decoration: none; /* Opcional: Eliminar subrayado */
+}
+
+.nuestraHistoria {
+  display: flex;
+  justify-content: center;
+}
+
+.nuestraHistoriaItems {
+  display: flex;
+  padding: 100px;
+}
+
+.lineaTemporalContainer {
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  column-gap: 5%;
+}
+
+.verticalLine {
+  border-left: 2px solid black;
+  height: 100%;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.nosotros .card {
+  margin: 20px;
+  width: 20rem;
+}
+
+.conocenosLabel {
+  display: flex;
+  justify-content: center;
+}
+
+.contactanosLabel {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.redesLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.redesLink {
+  display: flex;
+  padding: 2px 20px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contactoLabel {
+  padding: 0 10%;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 5%;
+}
+
+.formItem {
+  padding: 15px 0px;
+}
+
+.clientes {
+  display: flex;
+  justify-content: center;
+}
+.clientes .carousel {
+  width: 70%;
+}
+
+.slidesText {
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  color: white;
+}
+
+@media only screen and (max-width: 868px) {
+  .footerContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contenidoHomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 7%;
+  }
+  .contenidoHomeContainer .video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .serviceTabsHorizontal {
+    display: contents;
+  }
+  .serviceTabs {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .formItem {
+    padding: 15px 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

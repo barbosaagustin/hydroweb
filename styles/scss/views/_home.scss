@@ -1,0 +1,39 @@
+.contenidoHomeContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 7%;
+
+    .video {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .texto {
+        padding: 10px 0;
+        text-align: center;
+        font-size: 1em;
+        line-height: 2em; 
+    }
+
+    .imagenEquipoHome {
+        padding-left: 5%;
+    }
+
+}
+
+.featuresContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 7%;
+
+    .card {
+        margin: 20px 5%;
+        width: 20rem;
+    }
+}

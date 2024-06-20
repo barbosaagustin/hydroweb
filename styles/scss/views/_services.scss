@@ -1,0 +1,66 @@
+.serviceTab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #107E7D; 
+    border-radius: 15px; 
+    flex-wrap: wrap;
+
+    img {
+        width: 500px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1em;
+        line-height: 2em; 
+    }
+}
+
+.serviceTabsHorizontal {
+    display: none;
+}
+
+.nav-pills .nav-link {
+    background-color: white ;/* Color de fondo predeterminado */
+    color: black; /* Color del texto predeterminado */
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #107E7D; /* Color de fondo al pasar el mouse */
+}
+
+.nav-pills .nav-link.active {
+    background-color: #107E7D; /* Color de fondo cuando está activo */
+    color: white; /* Color del texto cuando está activo */
+}
+
+.botonContacto {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo personalizado para el botón */
+.contact-button {
+    color: white; /* Cambia este valor al color de texto deseado */
+    border: 2px solid #107E7D;
+    color: black;
+}
+
+.contact-button:hover {
+    background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+}
+
+.contact-button:after {
+    background-color: #107E7D; /* Cambia este valor al color de fondo deseado al pasar el mouse */
+}
+
+/* Estilo personalizado para el enlace dentro del botón */
+.contact-link {
+    color: black; /* Cambia este valor al color de texto deseado */
+    text-decoration: none; /* Opcional: Eliminar subrayado */
+}

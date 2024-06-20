@@ -1,0 +1,57 @@
+@import 'layout/body';
+@import 'base/reset';
+@import 'base/font';
+@import 'layout/navigation';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/portada';
+@import 'layout/text';
+@import 'views/home';
+@import 'views/services';
+@import 'views/aboutUs';
+@import 'views/contact';
+@import 'views/customers';
+
+@media only screen and (max-width: 868px) {
+
+    .footerContainer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }    
+
+    .contenidoHomeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px 7%;
+
+        .video {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .serviceTabsHorizontal {
+        display:contents;
+    }
+
+    .serviceTabs {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .formItem {
+        padding: 15px 30px;
+    }
+}

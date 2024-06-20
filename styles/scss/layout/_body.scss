@@ -1,0 +1,7 @@
+@import '../base/font';
+body {
+    font-family: $font-family;
+    font-optical-sizing: $font-optical-sizing;
+    font-weight: $font-weight;
+    font-style: $font-style;
+}
