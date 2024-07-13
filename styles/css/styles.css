@@ -312,6 +312,12 @@ header {
   color: white;
 }
 
+.ppalTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
 @media only screen and (max-width: 868px) {
   .footerContainer {
     display: flex;
