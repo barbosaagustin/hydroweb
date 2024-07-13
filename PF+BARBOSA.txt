@@ -1,0 +1,12 @@
+Entrega Final Desarrollo Web Flex en CoderHouse
+
+Alumno: Agustin Barbosa
+Fecha final de entrega: 14/7/2024
+
+Links necesarios:
+1. Repositorio de GitHub:
+	https://github.com/barbosaagustin/hydroweb
+2. Github Pages:
+	https://barbosaagustin.github.io/hydroweb/
+3. Proyecto hosteado en InfinityFree:
+	http://hydro.free.nf/ 
